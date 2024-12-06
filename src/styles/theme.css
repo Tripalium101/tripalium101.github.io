@@ -6,8 +6,8 @@
 
   /* Dark mode colors */
 	--sl-color-accent-low: #3c0017;
-	--sl-color-accent: #bd0249;
-	--sl-color-accent-high: #ff78ac;
+	--sl-color-accent: #B80000;
+	--sl-color-accent-high: #B80000;
 	--sl-color-white: #ffffff;
 	--sl-color-gray-1: #c2c2c2;
 	--sl-color-gray-2: #a3a3a3;
@@ -18,8 +18,8 @@
 	--sl-color-black: #070707;
 
 	--sl-color-red-low: #3c0017;
-  --sl-color-red: #bd0249;
-	--sl-color-red-high: #ff78ac;
+  --sl-color-red: #B80000;
+	--sl-color-red-high: #B80000;
 
   --sl-color-purple-low: #33225b;
   --sl-color-purple: #8a5cf5;

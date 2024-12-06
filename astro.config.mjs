@@ -4,11 +4,11 @@ import starlight from '@astrojs/starlight';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://louisescher.github.io',
-  base: '/starlight-ion-theme',
+  base: '/',
   integrations: [starlight({
-    title: 'Ion Theme',
+    title: 'Tripalium101',
     logo: {
-      src: './src/assets/ion-logo.svg'
+      src: './src/assets/logo.png'
     },
     social: {
       github: 'https://github.com/louisescher/starlight-ion-theme'
@@ -19,17 +19,21 @@ export default defineConfig({
     }, {
       label: '[list] Features',
       link: '/features/'
-    }, {
-      label: '[box] Guides',
+    },
+    {
+      label: '[box] Targeted Markets',
       autogenerate: {
-        directory: 'guides'
+        directory: 'TargetedMarkets'
       }
-    }, {
-      label: '[book] Reference',
+    },
+    {
+      label: '[box] Reclamation',
       autogenerate: {
-        directory: 'reference'
+        directory: 'reclamation'
       }
-    }],
+    }
+  
+  ],
     components: {
       ThemeProvider: './src/components/ThemeProvider.astro',
       ThemeSelect: './src/components/ThemeSelect.astro',
