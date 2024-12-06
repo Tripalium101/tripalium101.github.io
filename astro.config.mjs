@@ -3,7 +3,7 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://louisescher.github.io',
+  site: 'https://tripalium101.github.io',
   base: '/',
   integrations: [starlight({
     title: 'Tripalium101',
